@@ -1,5 +1,5 @@
 /*
-2)	Valid Parentheses
+2)Valid Parentheses
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 A string is valid if:
 •	Open brackets are closed by the same type.
@@ -18,7 +18,7 @@ public class ValidParenthesesStack{
 	 String s = "()[]{}";
 
 	 Stack<Character> stack = new Stack<>();
-	 Boolean valid=true;
+	 boolean valid=true;
 
 	for(int i=0;i<s.length();i++){
 	  char ch = s.charAt(i);
